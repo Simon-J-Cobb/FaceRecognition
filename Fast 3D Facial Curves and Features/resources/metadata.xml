@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addOn>
+  <identifier>797b782f-3ebb-4f2b-97df-064255a60f10</identifier>
+  <displayType>Collection</displayType>
+  <translatedDisplayType>
+    <en_US>Collection</en_US>
+    <ja_JP>コレクション</ja_JP>
+    <ko_KR>컬렉션</ko_KR>
+    <zh_CN>集合</zh_CN>
+  </translatedDisplayType>
+  <name>Fast 3D Facial Curves and Features</name>
+  <author>Manar Samad</author>
+  <version>1.4.0.0</version>
+  <downloadUrl>https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/61432/versions/12/download/zip?src=addons_ml_desktop_install&amp;profile_id=14486144&amp;license=706296&amp;release_family=R2018b</downloadUrl>
+  <previewImageUrl>https://www.mathworks.com/responsive_image/160/120/0/0/0/cache/matlabcentral/mlc-downloads/downloads/submissions/61432/versions/12/screenshot.jpg</previewImageUrl>
+  <installationFolder>Collections</installationFolder>
+</addOn>
