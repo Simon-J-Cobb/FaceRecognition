@@ -1,0 +1,15 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Small component selection">
+  <Param value="1" type="RichFloat" description="Small component ratio" tooltip="This ratio (between 0 and 1) defines the meaning of &lt;i>small&lt;/i> as the threshold ratio between the number of facesof the largest component and the other ones. A larger value will select more components." name="NbFaceRatio"/>
+  <Param value="false" type="RichBool" description="Select only non closed components" tooltip="" name="NonClosedOnly"/>
+ </filter>
+ <filter name="Delete Selected Faces and Vertices"/>
+ <filter name="Remove Unreferenced Vertices"/>
+ <filter name="Laplacian Smooth">
+  <Param value="3" type="RichInt" description="Smoothing steps" tooltip="The number of times that the whole algorithm (normal smoothing + vertex fitting) is iterated." name="stepSmoothNum"/>
+  <Param value="true" type="RichBool" description="1D Boundary Smoothing" tooltip="If true the boundary edges are smoothed only by themselves (e.g. the polyline forming the boundary of the mesh is independently smoothed). Can reduce the shrinking on the border but can have strange effects on very small boundaries." name="Boundary"/>
+  <Param value="true" type="RichBool" description="Cotangent weighting" tooltip="If true the cotangente weighting scheme is computed for the averaging of the position. Otherwise (false) the simpler umbrella scheme (1 if the edge is present) is used." name="cotangentWeight"/>
+  <Param value="false" type="RichBool" description="Affect only selected faces" tooltip="If checked the filter is performed only on the selected faces" name="Selected"/>
+ </filter>
+</FilterScript>
