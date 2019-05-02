@@ -1,3 +1,5 @@
+# R Code for aligning hand
+
 #Read the data in
 setwd("D:/Maths Project/Resources/Practicals/Intro to Shape Analysis")
 mydata <- read.table("shapes.txt",header = FALSE, sep = "" ,col.names = seq(1,40))
